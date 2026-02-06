@@ -1,10 +1,10 @@
-# --- Arquivos de Sistema e IDE ---
+# arquivos de Ssistema e IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# --- Python e Ambientes ---
+# arquivos de Python
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -13,19 +13,21 @@ env/
 .env
 .venv/
 
-# --- Modelos de IA (Pesados) ---
+# modelos
 *.pt
 *.onnx
 *.engine
 runs/
 
-# --- Datasets (Imagens não devem ir pro GitHub) ---
-datasets/
+# datasets 
+datasets/*
+!datasets/.gitkeep
+
 dataset_bracol/
 dataset_yolo/
 imagens/
 runs/
 
-# --- Logs e Temporários ---
+# logs e temporários
 wandb/
 *.log
