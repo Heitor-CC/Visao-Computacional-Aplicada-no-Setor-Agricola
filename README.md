@@ -1,4 +1,4 @@
-# 🍃 Segmentação e Diagnóstico de Doenças em Folhas de Café com YOLOv8
+#  Segmentação e Diagnóstico de Doenças em Folhas de Café com YOLOv8
 
 Este projeto desenvolve uma solução de **Visão Computacional** baseada em Deep Learning para auxiliar a cafeicultura. O objetivo é realizar a segmentação de instância (recorte preciso da folha) e a classificação automática de doenças em ambientes de campo não controlados.
 
