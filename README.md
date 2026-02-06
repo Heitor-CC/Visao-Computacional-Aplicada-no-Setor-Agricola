@@ -1,6 +1,11 @@
 #  Segmentação e Diagnóstico de Doenças em Folhas de Café com YOLOv8
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8--Seg-green)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)
 
 Este projeto desenvolve uma solução de **Visão Computacional** baseada em Deep Learning para auxiliar a cafeicultura. O objetivo é realizar a segmentação de instância (recorte preciso da folha) e a classificação automática de doenças em ambientes de campo não controlados.
+
+<img src="assets/val_batch0_pred.jpg" width="700" alt="Exemplo de Segmentação">
 
 ##  Objetivo
 Desenvolver um modelo capaz de distinguir folhas de café do fundo complexo (terra, vegetação, interferências visuais) e identificar patógenos com alta precisão, focando na aplicabilidade real ("in the wild").
